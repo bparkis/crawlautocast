@@ -13,9 +13,10 @@ macros += M g zaf
 
 {
 -- spells autocast when you press numbers 1-4
+-- it will select and cast a spell bound to any letter in the corresponding entry of castmacros
 -- if an entry begins with ~ it is instead a macro
 -- you can inscribe your weapon or first ring with a different castmacros string
--- the castmacro string begins with a /. You can put other inscriptions before the /.
+-- the castmacros string begins with a /. You can put other inscriptions before the /.
 local castmacros = "/~zb,~zc,abcdefghijk,ABCDEFGHIJK"
 
 local monster_array
